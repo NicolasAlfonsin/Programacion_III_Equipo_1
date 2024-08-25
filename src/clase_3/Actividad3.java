@@ -16,6 +16,7 @@ public class Actividad3 {
         // Imprimimos los resultados
         System.out.println("Cliente con mayor scoring: "  + resultado[0].getNombre() + " con " + resultado[0].getScoring());
         System.out.println("Cliente con segundo mayor scoring: " + resultado[0].getNombre() +" con " + resultado[1].getScoring());
+        
     }
 
     private static cliente[] encontrarDosMayores(ArrayList<cliente> clientes, int i, int f) {
